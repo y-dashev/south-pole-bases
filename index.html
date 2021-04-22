@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Antarctica Bases</title>
+<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+<link href="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css" rel="stylesheet">
+<script src="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js"></script>
+<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js'></script>
+<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css' rel='stylesheet' />
+<link href="./styles/index.css" rel="stylesheet"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="page-container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand mx-auto" href="#">Antarctica Bases Map</a>
+          </nav>
+          <div class="card my-3 text-center bg-light">
+            <div class="card-body">
+                <section>
+					<p>This map indicates all the Antarctica Bases</p>
+					<p>The grey line shows the Antarctic Convergence</p>
+                    <br>
+					<h5>Quick Info</h5>
+					<p>Used electronjs for building the app with mapboxjs for visualisating the map itself, also I made a webscraper for wikipedia table elements to colect data and save it into JSON file with all the needed formatting which then it  populate the map.</p>
+				</section>
+            </div>
+          </div>
+            <div class="map-container my-width-class">
+                <div id="map" class="my-width-class"></div>
+            </div>	
+        <!-- Footer -->
+ 
+            <footer class="footer-bases bg-dark text-center text-white">
+                <!-- Copyright -->
+                <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                        <a
+                        class="btn btn-link btn-floating btn-lg text-dark m-1"
+                        href="#!"
+                        role="button"
+                        data-mdb-ripple-color="dark"
+                        ><i class="fab fa-github"></i
+                        ></a>
+                    <br>
+                © 2021 Copyright:
+                <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+
+                </div>
+                <!-- Copyright -->
+            </footer>
+
+    </div>
+  <!-- Footer -->
+  <script type="module"  src="./scripts/scripts.js"> </script>
+
+</body>
+</html>

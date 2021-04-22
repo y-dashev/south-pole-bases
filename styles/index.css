@@ -1,0 +1,32 @@
+
+body {
+    background-color: whitesmoke;
+    padding: 0;
+    margin: 0;
+}
+
+.my-width-class{
+    width: 100%;
+}
+
+.page-container{
+    position: relative;
+    min-height: 100vh;
+}
+
+.heading{
+    font-size: 3rem;
+}
+
+#map { 
+    display: block;
+	height: 20rem;
+    width: 100%;
+}
+
+.footer-bases{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+

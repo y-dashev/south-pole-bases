@@ -1,0 +1,14 @@
+{
+  "name": "antarcticbases",
+  "version": "1.0.0",
+  "description": "University assignment ",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "keywords": [
+    "antarctic",
+    "bases"
+  ],
+  "author": "Yavor Dashev",
+  "license": "ISC"
+}
