@@ -18,41 +18,50 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand mx-auto" href="#">Antarctica Bases Map</a>
           </nav>
-          <div class="card my-3 text-center bg-light">
+          <div class="card mx-auto mx-5 my-3 text-center bg-light">
             <div class="card-body">
                 <section>
-					<p>This map indicates all the Antarctica Bases</p>
-					<p>The grey line shows the Antarctic Convergence</p>
-                    <br>
 					<h5>Quick Info</h5>
-					<p>Used electronjs for building the app with mapboxjs for visualisating the map itself, also I made a webscraper for wikipedia table elements to colect data and save it into JSON file with all the needed formatting which then it  populate the map.</p>
-				</section>
+                    <p>Simple map showcasing the bases and research stations in Antarctica.Used python for webscraping the data from a wikipedia table and save it to JSON file will all the necessary. </p>
+                    <p>For the map itslef I decided to us mapBoxJs.</p>
+                    <p>There is also a desktop version made with ElectronJs </p>
+                    <p>Link to the repository for the desktop version: <a target="_blank" href="https://github.com/y-dashev/arcticBases">here</a> </p>
+                    <div class="made-with">
+                        <h3> Made with:</h3>
+                        <div class="tech-list">
+                            <li><i class="fab fa-js-square"></i></li>
+                            <li><i class="fab fa-css3-alt"></i></li>
+                            <li><i class="fab fa-html5"></i></li>
+                            <li><i class="fab fa-python"></i></li>
+                        </div>
+                    </div>
+                    <br>
+                    <p>This map indicates all the Antarctica Bases</p>
+					<p>The grey line shows the Antarctic Convergence</p>
+                </section>
             </div>
           </div>
-            <div class="map-container my-width-class">
+            <div class="map-container mx-auto my-width-class">
                 <div id="map" class="my-width-class"></div>
             </div>	
-        <!-- Footer -->
- 
-            <footer class="footer-bases bg-dark text-center text-white">
-                <!-- Copyright -->
-                <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-                        <a
-                        class="btn btn-link btn-floating btn-lg text-dark m-1"
-                        href="#!"
-                        role="button"
-                        data-mdb-ripple-color="dark"
-                        ><i class="fab fa-github"></i
-                        ></a>
-                    <br>
-                 Created by:
-                <a class="text-white" href="https://github.com/y-dashev">Yavor Dashev</a>
-
-                </div>
-                <!-- Copyright -->
-            </footer>
-
     </div>
+    <footer class="footer-bases bg-dark text-center text-white">
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                <a
+                class="btn btn-link btn-floating btn-lg text-dark m-1"
+                href="#!"
+                role="button"
+                data-mdb-ripple-color="dark"
+                ><i class="fab fa-github"></i
+                ></a>
+            <br>
+         Created by:
+        <a class="text-white" href="https://github.com/y-dashev">Yavor Dashev</a>
+
+        </div>
+        <!-- Copyright -->
+    </footer>
   <!-- Footer -->
   <script type="module"  src="./scripts/scripts.js"> </script>
 
