@@ -36,6 +36,12 @@ body,html {
     height: 3rem;
 }
 
+.list-bullets{
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    list-style-type: circle;
+}
 #map { 
     display: block;
 	height: 30rem;
@@ -51,5 +57,8 @@ body,html {
 @media only screen and (max-width: 600px) {
     .my-width-class {
       width: 100%;
+    }
+    .card{
+        width: 90%;
     }
   }
